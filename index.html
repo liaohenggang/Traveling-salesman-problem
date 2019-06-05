@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(202, 201, 200);
+        }
+        #can{
+            background-color: white;
+        }
+        .container{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        header{
+            text-align:center;
+            height: 50px;
+            background-color: rgb(97, 97, 97);
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 50px; 
+            color:rgb(202, 201, 200);
+        }
+        .canvans{
+            text-align: center;
+            margin-top: 40px;
+        }
+       .button{
+           border: none;
+           height: 40px;
+           width: 60px;
+           outline: none;
+       }
+       .button:hover{
+           background-color: rgb(255, 142, 36);
+           outline: none;
+       }
+       .button:active{
+           border: solid 1px#666;
+       }
+       footer{
+           text-align:center;
+           height: 100px;
+           color:rgb(202, 201, 200);
+           background-color: rgb(97, 97, 97);
+           margin-bottom: 20px;
+           font-size: 20px;
+           line-height: 50px; 
+       }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+                <p>遗传算法解决旅行商问题</p>
+        </div>
+    </header>
+
+        <div class="button-nav">
+            <div class="container">
+             <button class="button" id="begin">开始</button>
+             <button class="button" id="stop">停止</button>
+             <button class="button" id="new">重新</button>
+            </div>
+        </div>
+
+     <div class="canvans">
+        <div class="container">
+            <canvas id="can" width="800" height="600" style="border:1px solid #d3d3d3;">
+                您的浏览器不支持 HTML5 canvas 标签。</canvas>
+        </div>
+     </div>
+
+     <footer >
+            <div class="container">
+                    <p>邮箱联系：liaohenggang@qq.com</p>
+                    <p>菜鸟代码，欢迎指教</p>
+            </div>
+     </footer>
+    
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
